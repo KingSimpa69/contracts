@@ -22,7 +22,7 @@ contract FELLA is ERC20, Ownable, ERC20Burnable{
 
     mapping(address => bytes32[]) private merkleProof;
 
-    constructor() ERC20("FUCK", "FUCK") Ownable(msg.sender) {
+    constructor() ERC20("FELLA", "FELLA") Ownable(msg.sender) {
         address[] memory routers = new address[](2);
         routers[0] = 0x6BDED42c6DA8FBf0d2bA55B2fa120C5e0c8D7891;
         routers[1] = 0x0389879e0156033202C44BF784ac18fC02edeE4f;
